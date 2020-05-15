@@ -1,0 +1,16 @@
+
+<aiml version="1.0.1" encoding="UTF-8">
+    <!--    std.startup.aiml -->
+    <!--    category is an automic AIML unit -->
+    <category>
+        <!-- Pattern to much in user input -->
+        <!-- if user enter "load AIML B" -->
+        <pattern>LOAD AIML B</pattern>
+        
+        <!-- Template is the response to the pattern -->
+        <!-- this learn an aiml file -->
+        <template>
+            <learn>basic_chat.aiml</learn>
+        </template>
+    </category>
+</aiml>    
